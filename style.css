@@ -82,7 +82,7 @@ body {
 .div_reader 
 .header_p_principal {
     background-color: #221144a8;
-    color: var(--cor-1);
+    color: var(--cor-0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     text-align: center;
@@ -98,7 +98,7 @@ body {
 
 .header_p_secundario{
     background-color: #221144a8;
-    color: var(--cor-1);
+    color: var(--cor-0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     letter-spacing: 0.3px;
@@ -240,8 +240,8 @@ section {
   }
   }
 .h3_produtospopulares {
-    color: var(--cor-1);
-    text-shadow: 0px 0px 1px var(--cor-1);
+    color: var(--cor-0);
+    text-shadow: 0px 0px 1px var(--cor-0);
     margin-top: 10px;
     padding-top: 7px;
     padding-bottom: 5px;
@@ -266,7 +266,7 @@ section {
     border-radius: 7px;
   }
 .my-paragraph {
-    color: var(--cor-0);
+    color: var(--cor-1);
     font-size: 17px;
     text-shadow: 0px 0px 1px var(--cor-0);
     text-align: center;
@@ -275,13 +275,6 @@ section {
     text-rendering: auto;
     padding-top: 10px;
     margin: 0;
-  }
-.my-paragraph:hover {
-    color: var(--cor-0);
-    box-shadow: 0 0 20px var(--cor-1);
-    transition-duration: 0.5s;
-    filter: brightness(90%) hue-rotate(10deg) ;
-    border-radius: 7px;
   }
 ul{
     display: flex;
