@@ -1,32 +1,21 @@
 @charset "UTF-8";
 
-
-
 :root{
-  
-
   --cor-0:#b68223;
   --cor-1:#c2b6da;
   --cor-2:#000000;
   --cor-3:#4a17b1;
   --cor-4:#0fa55f8c;
-
-
 }
 
-/*Configuração universal*/
+
 *{
     margin: 0 auto;
     padding: 0 auto;
-}
-hr{
-  border-color: var(--cor-0);
-  
-}
-/* Define algumas configurações básicas para o body */
+ }
 body {
     margin: 0;
-    
+    margin: auto;
   
   }
   #body{
@@ -36,104 +25,83 @@ body {
   }
 
 .h1_nav_bar {
+  color: var(--cor-0);
   font-size: 30px;
   padding-top: 0px;
-  color: var(--cor-0);
   margin: 0;
   
   
-}
-
-/* Estilos para tamanhos menores que 400px */
-@media (min-width: 400px) {
+ }
+ @media (min-width: 300px) {
   .h1_nav_bar {
     font-size: 30px;
     width: 100%;
-    margin: 0;
     width: 20%;
+    margin: 0;
+    
     
   }
-}
-
-
-  .navbar_a_p{
+ }
+  
+.navbar_a_p{
+  color: var(--cor-1);
+  font-size: 19px;
+  text-decoration: none;
   padding: 5px;
   padding-bottom: 5px;
-    color: var(--cor-1);
-    text-decoration: none;
-    font-size: 19px;
 }
-
-
-
-  
-  .navbar-brand{
+.navbar-brand{
     padding: 5px;
   }
-  .navbar-brand p:hover{
-    box-shadow: 0px 0px 7px var(--cor-0);
+.navbar-brand p:hover{
+   box-shadow: 0px 0px 7px var(--cor-0);
    border-radius: 30px;
-  
    padding: 5px;
 
 
   }
-  .img_header{
-    max-width: 300px;
-    min-width: 230px;
+.img_header{
     display: flex;
     margin:  auto;
- 
     width: 40%;
-    box-shadow: 0px 0px 23px 13px var(--cor-0);
+    max-width: 300px;
+    min-width: 230px;
     border: -10px 13px solid var(--cor-0);
     border-radius:40px 0px 40px 0px;
+    box-shadow: 0px 0px 23px 13px var(--cor-0);
   }
-
-  #header {
-  
-    padding-top: 10vw;
-    padding-bottom: 5vw;
-   
+#header {
+    padding-top: 15vw;
+    padding-bottom: 15vw;
     background-image: url(img/890376a8-809f-4877-8133-9b4c7f4d5327.jpg);
-   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
-  
- 
-   
   }
-  .div_reader 
-  .header_p_principal {
-   background-color: #221144a8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0.3px;
-    font-size: 16px;
-   
+.div_reader 
+.header_p_principal {
+    background-color: #221144a8;
     color: var(--cor-1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
+    letter-spacing: 0.3px;
     margin-top: 0px;
     max-width: 100%;
     margin-bottom: 0px;
     padding-left:3%;
     padding-right: 3%;
     padding-top: 5px;
-    
+   }
 
- 
-  }
-
-  .header_p_secundario{
+.header_p_secundario{
     background-color: #221144a8;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0.3px;
-    font-size: 16px;
-    box-shadow: 3px 3px 10px #221144a8;
     color: var(--cor-1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    letter-spacing: 0.3px;
     text-align: center;
     text-decoration: none;
     margin-bottom: 0px;
@@ -141,6 +109,7 @@ body {
     padding-left:3%;
     padding-right: 3%;
     padding-bottom: 5px;
+    box-shadow: 3px 3px 10px #221144a8;
   
 
   }
@@ -148,7 +117,7 @@ body {
 
   
  
-  #main {
+#main {
     background-image: linear-gradient(to top, #06167348, #0ec0e049);
     width: 100%;
     padding: 0px;
@@ -164,15 +133,15 @@ body {
   
 
 .main-p{
-   text-align: center;
-    text-decoration: none;
-    text-shadow: 0px 0px 11px var(--cor-3);
- 
-    color: var(--cor-1);
-    padding: 10px 0px 5px 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
+  color: var(--cor-1);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 0px 11px var(--cor-3);
+  padding: 10px 0px 5px 0px;
+  
+ }
 
 
 #carouselExampleSlide{
@@ -181,7 +150,7 @@ body {
     border-radius: 5px;
     max-width: 83%;
     margin: auto;
-}
+ }
 
  @media screen and (min-width: 1300px){
   #carouselExampleSlide{
@@ -194,26 +163,17 @@ body {
 
   }
  }
-
-
-
-
-
- #carouselExampleSlidesOnly img{
+#carouselExampleSlidesOnly img{
     border-radius : 10px;
   }
-
-
-
- #carouselExampleSlidesOnly{
-    background-color: #061673;
+#carouselExampleSlidesOnly{
+    background-color: var(--cor-0);
     padding: 3px;
     border-radius: 15px;
     max-width: 83%;
     margin: auto;
-    background-color: var(--cor-0);
-   }
-   @media screen and (min-width: 1300px) {
+  }
+  @media screen and (min-width: 1300px) {
    #carouselExampleSlideonly{
     background-color: #061673;
     padding: 0px;
@@ -221,59 +181,43 @@ body {
     margin: auto;
     max-width: 70%;
     margin-bottom: 40px;
-}
-      
-    }
-
-  
-
-
-
-
-
-
-  
-  /* Estiliza a section dentro do main */
-  section {
-
-   
-    padding: 0px;
-    border-radius: 5px;
-    max-width: 60%;
-    margin: auto;
   }
-  .my-section {
+ }
+section {
+  padding: 0px;
+  border-radius: 5px;
+  max-width: 60%;
+  margin: auto;
+ }
+.my-section {
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
     margin: auto;
-    box-shadow: 2px 2px 5px #000000;
     margin-top: 20px;
     max-width: 100%;
     padding-top: 5px;
     padding-bottom: 30px;
+    box-shadow: 2px 2px 5px #000000;
 
   }
-  
-  .div_produtos {
+.div_produtos {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 0px;
     
   }
-  .p_divprodutos{
+.p_divprodutos{
+    color: var(--cor-0);
     text-shadow: 0px 0px 1px var(--cor-0);
     font-size: 170%;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0rem;
-    color: var(--cor-0);
-    
   }
-  
-  .my-div {
+.my-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -282,7 +226,7 @@ body {
     margin: auto;
   }
   
-  .product-container {
+.product-container {
     width: 90%;
     max-width: 30.33%;
     padding: 0px;
@@ -295,16 +239,16 @@ body {
     margin: 27px;
   }
   }
-  .h3_produtospopulares {
-    text-shadow: 0px 0px 1px var(--cor-1);
+.h3_produtospopulares {
     color: var(--cor-1);
+    text-shadow: 0px 0px 1px var(--cor-1);
     margin-top: 10px;
     padding-top: 7px;
     padding-bottom: 5px;
     text-align: center;
   }
   
-  .my-image {
+.my-image {
     filter: brightness(100%);
     display: block;
     margin: auto;
@@ -313,7 +257,7 @@ body {
     max-width: 90%;
   }
   
-  .my-image:hover {
+.my-image:hover {
    
     background-color: var(--cor-0);
     box-shadow: 0 0 20px var(--cor-0);
@@ -321,35 +265,25 @@ body {
     filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
     border-radius: 7px;
   }
-  
-  
-  
-  
-  .my-paragraph {
-  color: var(--cor-0);
-    margin: 0;
+.my-paragraph {
+    color: var(--cor-0);
+    font-size: 17px;
     text-shadow: 0px 0px 1px var(--cor-0);
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     text-rendering: auto;
     padding-top: 10px;
-    font-size: 17px;
-
+    margin: 0;
   }
-  .my-paragraph:hover {
-   color: var(--cor-0);
+.my-paragraph:hover {
+    color: var(--cor-0);
     box-shadow: 0 0 20px var(--cor-1);
     transition-duration: 0.5s;
     filter: brightness(90%) hue-rotate(10deg) ;
     border-radius: 7px;
   }
-  
-      
-    
-  
-
-  ul{
+ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -357,46 +291,36 @@ body {
     padding: 0;
     margin: 0;
   }
-  article ul li{
+article ul li{
+    color: var(--cor-1);
     font-family: Georgia, 'Times New Roman', Times, serif;
-   color: var(--cor-1);
     text-align: center;
+    text-indent: -20px;
     list-style-position: inside;
     padding-left: 20px;
-    text-indent: -20px;
     padding-bottom: 3px;
-
-   
-
-
   }
  
-  article h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+article h2{
     color: var(--cor-1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 10px;
   }
-  
-  /* Estiliza a figura */
-  figure {
-    margin: 20px 0; /* Adiciona uma margem superior e inferior */
+figure {
+    margin: 20px 0;
   }
-  
-  /* Estiliza a legenda da figura */
-  figcaption {
-    font-style: italic; /* Define a fonte em itálico */
-    text-align: center; /* Centraliza o texto */
+figcaption {
+    font-style: italic; 
+    text-align: center; 
   }
-
-  article li{
+article li{
   color: var(--cor-0);
   }
-  /* Estiliza o footer */
-  footer {
-    text-align: center; /* Centraliza o texto */
-    padding: 20px; /* Adiciona uma margem interna */
-    background-color: #333;
+footer {
     color: var(--cor-0);
+    text-align: center; 
+    padding: 20px;
+    background-color: #333;
   }
   
