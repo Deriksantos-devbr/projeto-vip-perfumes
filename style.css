@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-  --cor-0:#b68223;
-  --cor-1:#c2b6da;
-  --cor-2:#000000;
-  --cor-3:#4a17b1;
-  --cor-4:#0fa55f8c;
+  --cor-0: #ff9200; 
+  --cor-1: #d9d1ee; 
+  --cor-2: #000000;
+  --cor-3: #5a17b117; 
+  --cor-4: #00d773; 
 }
 
 
@@ -33,7 +33,7 @@ body {
   .offcanvas-vertical.show {
     max-height: 30%; /* Defina a altura máxima quando o offcanvas estiver aberto */
     border-radius: 0px 0px 0px 10px ;
-    background-image: url(img/logotipo/th\ \(1\).jpg);
+ 
   }
   
 
@@ -258,6 +258,7 @@ section {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
+ 
 }
 
 .my-div {
@@ -321,7 +322,7 @@ section {
   margin: 0;
 }
 
-  }
+  
 ul{
     display: flex;
     flex-direction: column;
