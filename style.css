@@ -336,60 +336,72 @@ section {
 
 
 
-.container_aside{
-  margin: auto;
-  margin-bottom: 80px;
-  
- 
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #card-container .card {
-  margin-bottom: 10px;
-  margin-top: 40px;
-
-
+  background-color: #000000;
+  box-shadow: 2px 5px 7px 5px rgba(0, 0, 0, 0.479);
 }
 
 #card-container .card-img-top {
-  height: 180px;
+  height: 100%;
   object-fit: cover;
-  
+  object-position: center;
 }
 
 #card-container .card-title {
+  color: var(--cor-1);
   font-size: 18px;
   font-weight: bold;
- 
 }
 
 #card-container .card-text {
-  font-size: 16px;
-  font-size: 16px;
-    margin-bottom: -50px;
-
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 #card-container .card-footer {
-  background-color: #f8f9fa;
+  background-color: var(--cor-1);
   border-top: 1px solid #dee2e6;
-  padding: 10px;
-
+  padding: 3px;
+  width: 100%;
+  color: var(--cor-0);
+  text-align: center;
 }
 
 #card-container .text-body-secondary {
-  font-size: 12px;
+  font-size: 18px;
+}
+
+/* Adicione as regras de estilo para tornar o layout responsivo */
+@media (min-width: 576px) {
+  #card-container .col {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #card-container .col {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  #card-container .col {
+    flex-basis: 33.33%;
+  }
   
-
-
-
+  /* Reorganize as colunas em telas maiores */
+  #card-container .col:nth-child(4),
+  #card-container .col:nth-child(5),
+  #card-container .col:nth-child(6) {
+    margin-top: 20px;
+  }
 }
-.card{
-  box-shadow: 2px 5px 10px white;
-}
-
-
-
-
 
 
 
