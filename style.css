@@ -101,9 +101,9 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  background-image: url(img/article/022ac135-7f34-4115-928a-3458c3fd47db.jpg);
+  background-image: url(img/sections/e8d9434b-7348-4d43-9703-ae1e0af3af01.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-size: cover;
 }
@@ -140,10 +140,11 @@ body {
   box-shadow: 3px 3px 10px #221144a8;
 }
 #main {
-    background-image: linear-gradient(to top, #09576e86, #34d3ff50);
+   background-color: #102945;
     width: 100%;
     padding: 0px;
     margin: auto;
+    
   }
   
   @media screen and (min-width: 1300px) {
@@ -169,8 +170,10 @@ body {
  #carouselExampleSlide {
   padding: 0px;
   border-radius: 5px;
-  max-width: 83%;
+  max-width: 95%;
   margin: auto;
+  width: 90%;
+  
 }
 
 @media screen and (min-width: 1300px) {
@@ -236,7 +239,7 @@ body {
 section {
   padding: 0px;
   border-radius: 5px;
-  max-width: 60%;
+  max-width: 70%;
   margin: auto;
  }
  .my-section {
@@ -251,6 +254,7 @@ section {
   padding-top: 5px;
   padding-bottom: 30px;
   box-shadow: 2px 2px 5px #000000;
+  
 }
 
 .div_produtos {
@@ -306,8 +310,8 @@ section {
   display: block;
   margin: auto;
   height: auto;
-  width: 90%;
-  max-width: 90%;
+  width: 100%;
+  max-width: 102%;
   padding-bottom: 0px;
 }
 
@@ -339,6 +343,8 @@ section {
 .container {
   margin-left: 10px;
   margin-right: 10px;
+  
+
 }
 
 #card-container .card {
@@ -382,6 +388,7 @@ section {
   #card-container .col {
     flex-basis: 100%;
     margin-bottom: 20px;
+    max-width: 65%;
   }
 }
 
@@ -415,10 +422,11 @@ section {
   max-width: 700px;
   padding-top: 10px;
   margin: auto;
-background-color: rgba(0, 0, 0, 0.466);
-  box-shadow: 1px 1px 5px  rgba(0, 0, 0, 0.466);
+  background-color: #00000077;
+
   border-radius: 10px;
   margin-top: 20px;
+  box-shadow: 2px 4px 4px 3px #00000036;
   
 }
 @media (min-width: 1400px){
@@ -453,6 +461,7 @@ background-color: rgba(0, 0, 0, 0.466);
   align-items: flex-start;
 }
 
+
 .image-wrapper {
   flex-basis: 50%;
   max-width: 300px;
@@ -478,7 +487,7 @@ background-color: rgba(0, 0, 0, 0.466);
   border-radius: 10px;
   margin-bottom: 20px;
   margin-top: 7px;
-  margin-left: 10px;
+ 
   
 }
 
@@ -493,6 +502,7 @@ p {
 @media screen and (max-width: 768px) {
   .content-wrapper {
     flex-direction: column;
+    
   }
 
   .image-wrapper,
