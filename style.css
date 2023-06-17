@@ -194,7 +194,22 @@ body {
   margin-top: 8px;
   margin-bottom:-10px;
   padding-top: 8px;
+ 
 }
+@media screen and (max-width: 700px) {
+  .div_reader .header_p_principal {
+ 
+    margin-bottom:0px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .div_reader .header_p_principal {
+    font-size: 19px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+  }
+}
+
 
 .p_explica {
   background-color: var(--cor-3);
@@ -276,28 +291,29 @@ body {
   }
 
 
-#carouselExampleSlidesOnly img {
-  border-radius: 10px;
-}
-
-#carouselExampleSlidesOnly {
-  background-color: var(--cor-2);
-  padding: 3px;
-  border-radius: 15px;
+  #carouselExampleSlidesOnly img {
+    border-radius: 10px;
+  }
   
-  margin: auto;
-}
-
-@media screen and (min-width: 1300px) {
-  #carouselExampleSlideonly {
-    background-color: #061673;
-    padding: 0px;
+  #carouselExampleSlidesOnly {
+    background-color: var(--cor-2);
+    padding: 3px;
     border-radius: 15px;
     margin: auto;
-    max-width: 70%;
-    margin-bottom: 40px;
   }
-}
+  
+  @media screen and (max-width: 600px) {
+    #carouselExampleSlidesOnly {
+      border-radius: 0;
+    }
+  }
+  
+  @media screen and (min-width: 601px) {
+    #carouselExampleSlidesOnly {
+      border-radius: 10px;
+    }
+  }
+  
 
 .p_carousel_inner {
   color: var(--cor-0);
