@@ -399,23 +399,42 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  max-width: 90%;
+  width: 90%;
+  max-width: 100%;
   margin: auto;
+  margin-top: 20px;
+}
+@media screen and (max-width: 560px) {
+  .product-container {
+    width: 46%;
+    max-width: 100%;
+    margin: 20px 0;
+  }
 }
 
 .product-container {
   width: 90%;
   max-width: 30.33%;
   padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 560px) {
-  .product-container {
-    width: 53%;
-    max-width: 33%;
-    padding: 0;
-    margin: 27px;
+  .my-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 560px) {
+  .my-image:hover  {
+    background-color: var(--cor-0);
+  box-shadow: 0 0 20px var(--cor-0);
+  transition-duration: 0.5s;
+  filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
+  border-radius: 7px;
   }
 }
 
@@ -425,6 +444,7 @@ section {
   margin-top: 10px;
   padding: 7px 0 5px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .my-image {
@@ -433,7 +453,7 @@ section {
   margin: auto;
   height: auto;
   width: 100%;
-  max-width: 102%;
+  max-width: 100%;
   padding-bottom: 0px;
 }
 
@@ -447,12 +467,10 @@ section {
 
 .my-paragraph {
   color: var(--cor-1);
-  font-size: 17px;
+  font-size: 16px;
   text-shadow: 0px 0px 1px var(--cor-0);
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  text-rendering: auto;
   padding-top: 10px;
   margin: 0;
 }
