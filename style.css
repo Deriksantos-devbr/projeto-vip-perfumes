@@ -17,8 +17,7 @@
 
 #body{
     background-color: var(--cor-2);
-    padding-left: 10vw; /* Adicionado */
-    padding-right: 10vw; /* Adicionado */
+
 }
 @media screen and (max-width: 600px){
 #body {
@@ -58,7 +57,7 @@
     padding-bottom: 0;
 }
 .navbar-toggler{
-    margin-right: 10px;
+   
 }
 @media screen and (min-width: 1350px) {
   .navbar-toggler {
