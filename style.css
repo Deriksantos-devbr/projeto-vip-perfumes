@@ -55,10 +55,9 @@
 }
 .container-fluid{
     padding-bottom: 0;
+    
 }
-.navbar-toggler{
-   
-}
+
 @media screen and (min-width: 1350px) {
   .navbar-toggler {
     margin-right: 62px;
@@ -188,7 +187,13 @@
 
 
 .p_explica {
-  background-color: var(--cor-3);
+  background-image: url(img/fundo_header.jpg);
+  background-repeat:repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:cover ; 
+
   color: var(--cor-1);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 15px;
@@ -208,6 +213,7 @@
     width: 100%;
     padding: 0px;
     margin: auto;
+    
     
   }
   
@@ -272,7 +278,13 @@
   }
   
   #carouselExampleSlidesOnly {
-    background-color: var(--cor-2);
+    background-image: url(img/fundo_header.jpg);
+    background-repeat:repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover ; 
+
     padding: 3px;
     border-radius: 15px;
     margin: auto;
