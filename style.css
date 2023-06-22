@@ -10,8 +10,8 @@
 
 
 *{
-    margin: 0 ;
-    padding: 0 ;
+    margin:  auto ;
+    padding:   auto ;
     font-family:'Times New Roman', Times, serif;
  }
 
@@ -22,7 +22,7 @@
 @media screen and (max-width: 600px){
 #body {
   background-color: #1B2E57;
-    margin: auto;
+  
 }
 }
 
@@ -189,12 +189,11 @@
 
 
 .p_explica {
-  background-image: url(img/fundo_header.jpg);
+  background-image: url(img/planos_de_fundo/3.jpg);
   background-repeat:repeat;
   background-attachment: fixed;
   background-position: center center;
-  background-repeat:no-repeat;
-  background-size:cover ; 
+ 
 
   color: var(--cor-1);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -215,6 +214,7 @@
     width: 100%;
     padding: 0px;
     margin: auto;
+    padding-bottom: 150px;
     
     
   }
@@ -279,12 +279,11 @@
   }
   
   #carouselExampleSlidesOnly {
-    background-image: url(img/fundo_header.jpg);
-    background-repeat:repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-repeat:no-repeat;
-    background-size:cover ; 
+   
+  background-image: url(img/planos_de_fundo/3.jpg);
+  background-repeat:repeat;
+  background-attachment: scroll;
+
     border-radius: 15px;
     margin: auto;
   }
@@ -544,6 +543,13 @@ section {
 
 
 .container_quemsomos {
+  background-image: url(img/planos_de_fundo/1.jpg);
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:cover ; 
+
+
   display: flex;
   flex-direction: column;
   max-width: 700px;
@@ -639,6 +645,9 @@ p {
 }
   
 ul{
+  background-image: url(img/planos_de_fundo/3.jpg);
+  background-repeat:repeat;
+  background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -654,6 +663,7 @@ article ul li{
     list-style-position: inside;
     padding-left: 20px;
     padding-bottom: 3px;
+    margin-bottom: 0px;
   }
  
 article h2{
@@ -672,6 +682,57 @@ figcaption {
 article li{
   color: var(--cor-0);
   }
+
+  section {
+    text-align: center;
+  }
+  
+  .h3_nossotime {
+   color: var(--cor-0);
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team-container .team-member {
+    width: 200px;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .team-container .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 900px) {
+    .team-container {
+      flex-direction: column;
+    }
+  
+    .team-container .team-member {
+      margin: 20px 0;
+    }
+  }
+  .p_quemsomos{
+    text-align: center;
+    padding-top: 10px;
+    color: var(--cor-0);
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  
+  
 footer {
     color: var(--cor-0);
     text-align: center; 
