@@ -26,11 +26,11 @@
 }
 }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1300px) {
     #body {
       background-color: #1B2E57;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
   }
 }
 .offcanvas-vertical {
@@ -62,7 +62,7 @@
 @media screen and (min-width: 1350px) {
   .navbar-toggler {
     margin-right: 62px;
-    width: 91px;
+    width: 17px;
     height: 42px;
     margin-left: -57px;
   }
