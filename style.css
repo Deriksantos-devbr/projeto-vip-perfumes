@@ -34,7 +34,7 @@
   }
 }
 .offcanvas-vertical {
-    max-height: 30%; 
+    max-height: 40%; 
     transition: max-height 0.3s ease-in-out;
 }
 #offcanvasDarkNavbarLabel{
@@ -44,7 +44,7 @@
     margin-top: 15px;
 }
 .offcanvas-vertical.show {
-    max-height: 35%;
+    max-height: 40%;
     border-radius: 0px 0px 0px 10px ;
 }
 .offcanvas-header .btn-close{
@@ -644,7 +644,7 @@ p {
   }
 }
   
-ul{
+#ul_produtos{
   background-image: url(img/planos_de_fundo/3.jpg);
   background-repeat:repeat;
   background-attachment: fixed;
