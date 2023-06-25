@@ -931,15 +931,44 @@ article li{
   }
   
   
-footer {
+  footer {
     color: var(--cor-0);
-    text-align: center; 
+    text-align: center;
     padding: 20px;
     background-color: #333;
   }
   
-
+  footer .social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
   
+  footer .social-links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    
+  }
   
-
+  footer .social-links li a {
+    display: inline-block;
+    color: var(--cor-0);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s;
+    
+  }
+  
+  footer .social-links li a .social-icon {
+    width: 16px; /* Ajuste a largura conforme necessário */
+    height: 16px; /* Ajuste a altura conforme necessário */
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  footer .social-links li a:hover {
+    color: var(--cor-1);
+  }
   
