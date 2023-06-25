@@ -215,7 +215,7 @@
 }
 .navbar_a_p {
   color: var(--cor-0);
-  font-size: 7vw;
+  font-size: 6vw;
   text-decoration: none;
   padding: 5px;
   padding-bottom: 5px;
@@ -228,12 +228,12 @@
 @media screen and (max-width: 510px) {
   .navbar_a_p {
     color: var(--cor-0);
-    font-size: 9vw;
+    font-size: 7vw;
     text-decoration: none;
     padding: 0px;
     padding-bottom: 5px;
-    text-align: center;
-    margin: 0px;
+    margin-left: 10px;
+    margin-right: 17%;
   }
 }
 @media screen and (min-width: 511px) {
@@ -631,9 +631,7 @@ section {
 .my-image:active {
   filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
 }
-.p_my_section{
-  font-size: 100%;
-}
+
 
 .my-paragraph {
   color: var(--cor-1);
