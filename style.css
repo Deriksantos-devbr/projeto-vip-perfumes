@@ -142,11 +142,33 @@
   margin-top: 0px;
   margin-left: 17px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 510px) {
+  .img_nav_bar {
+    margin: 0;
+    max-width: 21;
+    width: 20%;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-left: 2px;
+    margin-right: 0px;
+}
+  }
+
+@media screen and (min-width: 511px) {
   .img_nav_bar {
     margin: auto;
     max-width: 20%;
-    width: 10%;
+    width: 15%;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-left: 17px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .img_nav_bar {
+    margin: auto;
+    max-width: 20%;
+    width: 13%;
     margin-bottom: 5px;
     margin-top: 9px;
     margin-left: 17px;
@@ -164,30 +186,76 @@
   margin: auto;
   margin-bottom: 0px;
 }
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 510px) {
+  .navbar_a_p {
+    color: var(--cor-0);
+    font-size: 9vw;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 511px) {
+  .navbar_a_p {
+    color: var(--cor-0);
+    font-size: 8vw;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: auto;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-right: 14%;
+}
+  }
+
+@media screen and (min-width:850px) {
+  .navbar_a_p {
+    color: var(--cor-0);
+    font-size: 8vw;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: auto;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-right: 14%;
+  }
+}
+@media screen and (min-width:1280px) {
+  .navbar_a_p {
+    color: var(--cor-0);
+    font-size: 8vw;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: auto;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-right: 14%;
+  }
+}
+@media screen and (min-width:1281px) {
   .navbar_a_p {
     color: var(--cor-0);
     font-size: 6vw;
     text-decoration: none;
-    padding: 5px;
+    padding: 0px;
     padding-bottom: 5px;
     text-align: center;
-    margin-right: 25%;
-   
+    margin-right: 0;
+    margin-left: auto;
+    margin: auto;
     margin-bottom: 0px;
-  }
-}
-@media screen and (min-width: 1300px) {
-  .navbar_a_p {
-    color: var(--cor-0);
-    font-size: 5vw;
-    text-decoration: none;
-    padding: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    margin-right: 20%;
-   
-    margin-bottom: 0px;
+    margin-right: 13%;
   }
 }
 .navbar-brand {
