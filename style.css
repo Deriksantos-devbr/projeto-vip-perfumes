@@ -225,13 +225,14 @@
   margin: auto;
   margin-bottom: 0px;
 }
-@media screen and (max-width: 510px) {
+@media screen and (mim-width: 510px) {
   .navbar_a_p {
     color: var(--cor-0);
     font-size: 7vw;
     text-decoration: none;
     padding: 0px;
     padding-bottom: 5px;
+
     margin-left: 10px;
     margin-right: 17%;
   }
