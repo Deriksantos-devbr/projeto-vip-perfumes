@@ -449,12 +449,13 @@ section {
 .h2_divprodutos {
   color: var(--cor-1);
   text-shadow: 0px 0px 1px var(--cor-0);
-  font-size: 195%;
+  font-size: 270%;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   letter-spacing: 1px;
   text-decoration: none;
+  
 }
 
 .my-div {
@@ -534,8 +535,9 @@ section {
 .my-image:active {
   filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
 }
-
-
+.p_my_section{
+  font-size: 115%;
+}
 
 .my-paragraph {
   color: var(--cor-1);
