@@ -17,22 +17,73 @@
 
 #body{
     background-color: #1B2E57;
-
-}
-@media screen and (max-width: 600px){
-#body {
-  background-color: #1B2E57;
-  
-}
 }
 
-  @media screen and (min-width: 1300px) {
-    #body {
-      background-color: #1B2E57;
-    margin-left: 16vw;
-    margin-right: 16vw;
-  }
+    @media screen and (max-width: 600px) {
+      #body {
+        background-color: #1B2E57;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+    
+    @media screen and (min-width: 601px) and (max-width: 1300px) {
+      #body {
+        background-color: #1B2E57;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+    
+    @media screen and (min-width: 1301px) {
+      #body {
+        background-color: #1B2E57;
+        margin-left: 16vw;
+        margin-right: 16vw;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+
+
+.btn-scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--cor-1);
+  color: var(--cor-0);
+  border: none;
+  border-radius: 10%;
+  font-size: 24px;
+  display: none;
+  box-shadow: 1px 1px 5px #d9d1ee87;
 }
+
+.btn-scroll-to-top::before {
+  content: "";
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  border-style: solid;
+  border-width: 0.2em 0.2em 0 0;
+  border-color: var(--cor-2);
+  width: 0.4em;
+  height: 0.4em;
+  line-height: 0.4em;
+  display: block;
+}
+
+.btn-scroll-to-top:hover {
+  background-color: var(--cor-0);
+}
+
+
+
+
+
 .offcanvas-vertical {
     max-height: 40%; 
     transition: max-height 0.3s ease-in-out;
@@ -129,7 +180,7 @@
     padding: 5px;
     padding-bottom: 5px;
     text-align: center;
-    margin-right: 27%;
+    margin-right: 20%;
    
     margin-bottom: 0px;
   }
@@ -238,40 +289,39 @@
   
  }
 
-
- #carouselExampleSlide {
-  padding: 0px;
-  max-width: 105%;
+ #carouselExampleSlidesOnly .carousel-inner {
+  width: 90%;
   margin: auto;
-  width: 100%;
-  
 }
-@media screen and (max-width: 600px) {
-  #carouselExampleSlide {
-    padding: 0px;
-    max-width: 120%;
-    margin: auto;
-    width: 107%;
+@media screen and (max-width: 640px) {
+  #carouselExampleSlidesOnly .carousel-inner {
+    width: 90%;
   }
 }
-@media screen and (min-width: 605px) {
-  #carouselExampleSlide {
-    padding: 0px;
-    max-width: 120%;
-    margin: auto;
+
+@media screen and (min-width: 800px) {
+  #carouselExampleSlidesOnly .carousel-inner {
     width: 85%;
   }
 }
 
-@media screen and (min-width: 1000px) {
-  #carouselExampleSlide {
-    padding: 0px;
-    border-radius: 5px;
-    margin: auto;
-    max-width: 68%;
-    width: 62%;
-}
+
+@media screen and (min-width:1050px) {
+  #carouselExampleSlidesOnly .carousel-inner {
+    width: 75%;
   }
+}
+
+ #carouselExampleSlide {
+  
+    padding: 0;
+    width: 90%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 
   #carouselExampleSlidesOnly img {
@@ -282,7 +332,7 @@
    
   background-image: url(img/planos_de_fundo/3.jpg);
   background-repeat:repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 
     border-radius: 15px;
     margin: auto;
@@ -307,6 +357,24 @@
   line-height: 1.5;
   text-align: center;
   margin: auto;
+}
+
+#carouselExampleSlide {
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -378,7 +446,6 @@ section {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
- 
 }
 
 .my-div {
@@ -390,6 +457,7 @@ section {
   margin: auto;
   margin-top: 20px;
 }
+
 @media screen and (max-width: 560px) {
   .product-container {
     width: 46%;
@@ -414,13 +482,14 @@ section {
     align-items: center;
   }
 }
+
 @media screen and (max-width: 560px) {
-  .my-image:hover  {
+  .my-image:hover {
     background-color: var(--cor-0);
-  box-shadow: 0 0 20px var(--cor-0);
-  transition-duration: 0.5s;
-  filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
-  border-radius: 7px;
+    box-shadow: 0 0 20px var(--cor-0);
+    transition-duration: 0.5s;
+    filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
+    border-radius: 7px;
   }
 }
 
@@ -441,15 +510,21 @@ section {
   width: 100%;
   max-width: 100%;
   padding-bottom: 0px;
+  transition: filter 0.5s, box-shadow 0.5s, border-radius 0.5s;
+  border-radius: 7px;
 }
 
 .my-image:hover {
   background-color: var(--cor-0);
   box-shadow: 0 0 20px var(--cor-0);
-  transition-duration: 0.5s;
   filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
-  border-radius: 7px;
 }
+
+.my-image:active {
+  filter: brightness(90%) hue-rotate(10deg) opacity(0.7);
+}
+
+
 
 .my-paragraph {
   color: var(--cor-1);
@@ -459,6 +534,19 @@ section {
   text-decoration: none;
   padding-top: 10px;
   margin: 0;
+  word-break: break-word;
+}
+@media screen and (max-width: 600px) {
+  .my-div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product-container {
+    width: 48%;
+    max-width: 48%;
+    margin-bottom: 20px;
+  }
 }
 
 
