@@ -46,20 +46,22 @@
     }
 
 
-.btn-scroll-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 25px;
-  width: 40px;
-  height: 40px;
-  background-color: var(--cor-1);
-  color: var(--cor-0);
-  border: none;
-  border-radius: 10%;
-  font-size: 24px;
-  display: none;
-  box-shadow: 1px 1px 5px #d9d1ee87;
-}
+    .btn-scroll-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 25px;
+      width: 40px;
+      height: 40px;
+      background-color: var(--cor-1);
+      color: var(--cor-0);
+      border: none;
+      border-radius: 10%;
+      font-size: 24px;
+      display: none;
+      box-shadow: 1px 1px 5px #d9d1ee87;
+      margin-bottom: -45px; /* Adicione essa propriedade para ajustar o posicionamento do botão */
+    }
+    
 
 .btn-scroll-to-top::before {
   content: "";
