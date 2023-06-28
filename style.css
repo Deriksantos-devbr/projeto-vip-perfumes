@@ -564,6 +564,28 @@ section {
   text-decoration: none;
   
 }
+/* Estilos padrão para todas as telas */
+.p_my_section {
+  font-size: 16px;
+  /* Outros estilos que você já possui */
+}
+
+/* Estilos para telas menores, como dispositivos móveis */
+@media (max-width: 767px) {
+  .p_my_section {
+    font-size: 14px;
+    /* Outros estilos específicos para telas menores */
+  }
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+  .p_my_section {
+    font-size: 18px;
+    /* Outros estilos específicos para telas maiores */
+  }
+}
+
 
 .my-div {
   display: flex;
