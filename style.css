@@ -39,11 +39,11 @@
       }
     }
     
-    @media screen and (min-width: 1301px) {
+    @media screen and (min-width: 1300px) {
       #body {
         background-color: #1B2E57;
-        margin-left: 16vw;
-        margin-right: 16vw;
+        margin-left: 18%;
+        margin-right: 18%;
         padding-left: 0;
         padding-right: 0;
       }
@@ -63,7 +63,7 @@
       font-size: 24px;
       display: none;
       box-shadow: 1px 1px 5px #d9d1ee87;
-      margin-bottom: -45px; 
+      margin-bottom: 15px; 
     }
     
 
@@ -546,6 +546,21 @@ section {
   box-shadow: 2px 2px 5px #000000;
   
 }
+@media screen and (min-width: 1300px) {
+  .my-section {
+    background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 90%;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  box-shadow: 2px 2px 5px #000000;
+  }
+}
 
 .div_produtos {
   text-align: center;
@@ -878,6 +893,10 @@ p {
   background-image: url(img/planos_de_fundo/3.jpg);
   background-repeat:repeat;
   background-attachment: fixed;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 1px var(--cor-1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -921,6 +940,7 @@ article li{
    color: var(--cor-0);
     font-size: 24px;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
   
   .team-container {
@@ -963,13 +983,16 @@ article li{
   
   
   footer {
+    
     color: var(--cor-0);
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: var(--cor-2);
   }
   
   footer .social-links {
+    text-align: center;
+    
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -980,7 +1003,7 @@ article li{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    
+    margin-left: 10px;
   }
   
   footer .social-links li a {
@@ -991,6 +1014,7 @@ article li{
     transition: color 0.3s;
     
   }
+  
   
   footer .social-links li a .social-icon {
     width: 16px; /* Ajuste a largura conforme necessário */
