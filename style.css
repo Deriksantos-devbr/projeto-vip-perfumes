@@ -714,8 +714,6 @@ section {
 .container {
   margin-left: 10px;
   margin-right: 10px;
-  
-
 }
 
 #card-container .card {
@@ -751,8 +749,39 @@ section {
 
 #card-container .text-body-secondary {
   font-size: 18px;
-
 }
+
+@media (min-width: 576px) {
+  #card-container .col {
+    flex-basis: 50%;
+  
+  }
+}
+
+@media (min-width: 768px) {
+  #card-container .col {
+    flex-basis: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  #card-container .col {
+    flex-basis: 25%;
+  }
+  
+  #card-container .col:nth-child(4),
+  #card-container .col:nth-child(5),
+  #card-container .col:nth-child(6) {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #card-container .col {
+    flex-basis: 20%;
+  }
+}
+
 
 /* Adicione as regras de estilo para tornar o layout responsivo */
 @media (min-width: 576px) {
