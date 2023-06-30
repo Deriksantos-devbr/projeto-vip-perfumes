@@ -934,7 +934,7 @@ p {
     margin: 0;
   }
 article ul li{
-    color: var(--cor-1);
+    color: var(--cor-0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-indent: -20px;
@@ -945,7 +945,7 @@ article ul li{
   }
  
 article h2{
-    color: var(--cor-1);
+    color: var(--cor-0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 10px;
@@ -956,9 +956,6 @@ figure {
 figcaption {
     font-style: italic; 
     text-align: center; 
-  }
-article li{
-  color: var(--cor-0);
   }
 
   section {
