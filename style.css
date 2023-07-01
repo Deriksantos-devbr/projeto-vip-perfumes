@@ -567,6 +567,12 @@ section {
   padding-top: 15px;
   padding-bottom: 0;
 }
+@media screen and (max-width: 600px) {
+  .h2_divprodutos {
+    font-size: 200% !important;
+  }
+}
+
 
 .h2_divprodutos {
   color: var(--cor-0);
