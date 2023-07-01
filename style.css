@@ -569,7 +569,8 @@ section {
 }
 @media screen and (max-width: 600px) {
   .h2_divprodutos {
-    font-size: 200% !important;
+    font-size: 185% !important;
+    
   }
 }
 
