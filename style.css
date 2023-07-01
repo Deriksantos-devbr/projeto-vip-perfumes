@@ -724,9 +724,9 @@ section {
   margin-left: 10px;
   margin-right: 10px;
 }
-@media (min-width: 520px){
+@media (max-width: 520px){
 .container, .container-sm {
-    max-width: 80%;
+    max-width: 85%;
 }
 }
 
@@ -753,7 +753,7 @@ section {
 }
 
 #card-container .card-text {
- 
+  word-spacing: -0.1em;
   margin-left: 5px;
   margin-right: 5px;
   text-indent: 20px;
