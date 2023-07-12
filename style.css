@@ -93,8 +93,9 @@
   font-size: 17px;
   text-decoration: none;
   letter-spacing: 0.6px;
-  margin-right: 15px;
+  margin-right: -10px;
 }
+
 
 .navbar-toggler-icon{
   background-color: #d9d1ee79;
