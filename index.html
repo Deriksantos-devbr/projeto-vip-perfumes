@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vip perfumes</title>
+    <link rel="icon" type="image/png" href="img/icones/logo _so_diamante.jpg">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
@@ -23,13 +24,13 @@
     </section>
 
     <nav id="navbar_nav" class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
+      <div class="container-fluid d-flex">
         <img class="img_nav_bar" src="img/logo _so_diamante.jpg" alt="">
         <p class="navbar_a_p">Vip perfumes</p>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#produtos_populares">- Produtos populares -</a>
@@ -91,7 +92,7 @@
             </div>
           </div>
         </section>
-        
+        <span><button id="fale-conosco-btn" class="fale-conosco-btn" onclick="faleConosco()"> * Fale Conosco *</button></span>
         
       <section class="my-section">
   <div id="produtos_populares" class="div_produtos">
@@ -102,48 +103,61 @@
   <div class="my-div">
     <div class="product-container">
       <h3 class="h3_produtospopulares">212 Vip</h3>
-      <img class="my-image" src="img/produtospopulares/212_vip.jpg" alt="Imagem">
+      <a href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE" target="_blank">
+        <img class="my-image" src="img/produtospopulares/212_vip.jpg" alt="Imagem">
+      </a>
       <p class="my-paragraph">Uma explosão de elegância e sedução.<br> 400 R$</p>
     </div>
-
+  
     <div class="product-container">
       <h3 class="h3_produtospopulares">Elie Saab Rose</h3>
-      <img class="my-image" src="img/produtospopulares/elite_saab.jpg" alt="Imagem">
+      <a href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE" target="_blank">
+        <img class="my-image" src="img/produtospopulares/elite_saab.jpg" alt="Imagem">
+      </a>
       <p class="my-paragraph">Um aroma delicado que floresce e elegância e.<br>340 R$</p>
     </div>
-
+  
     <div class="product-container">
       <h3 class="h3_produtospopulares">Lacoste</h3>
-      <img class="my-image" src="img/produtospopulares/lacoste.jpg" alt="Imagem">
+      <a href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE" target="_blank">
+        <img class="my-image" src="img/produtospopulares/lacoste.jpg" alt="Imagem">
+      </a>
       <p class="my-paragraph">fragrância que redefine o estilo contemporâneo.<br>350 R$</p>
     </div>
-
+  
     <div class="product-container">
       <h3 class="h3_produtospopulares">Coco Chanel</h3>
-      <img class="my-image" src="img/produtospopulares/coco_chanel2_correta.jpg" alt="Imagem">
+      <a href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE" target="_blank">
+        <img class="my-image" src="img/produtospopulares/coco_chanel2_correta.jpg" alt="Imagem">
+      </a>
       <p class="my-paragraph">Uma fragrância de essência da  <br>sofisticação atemporal. <br> 850 R$ </p>
     </div>
-
+  
     <div class="product-container">
       <h3 class="h3_produtospopulares">The Icon</h3>
-      <img class="my-image" src="img/produtospopulares/the_icon.jpg" alt="Imagem">
-      <p class="my-paragraph">
-        Elevando a sofisticação a um novo patamar em cada gota. <br> 280 R$</p>
+      <a href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE" target="_blank">
+        <img class="my-image" src="img/produtospopulares/the_icon.jpg" alt="Imagem">
+      </a>
+      <p class="my-paragraph">Elevando a sofisticação a um novo patamar em cada gota. <br> 280 R$</p>
     </div>
-
+  
     <div class="product-container">
       <h3 class="h3_produtospopulares">Back to Black</h3>
-      <img class="my-image" src="img/produtospopulares/bac_to_black.jpg" alt="Imagem">
+      <a href="https://api.whatsapp.com/send?phone=SEUNUMERODOTELEFONE" target="_blank">
+        <img class="my-image" src="img/produtospopulares/bac_to_black.jpg" alt="Imagem">
+      </a>
       <p class="my-paragraph">Explorando os sentidos com uma essência intensa e misteriosa. <br> 1500 R$</p>
     </div>
   </div>
-</section>
-
+  </section>
+  
         
 
 
         <aside>
-          <section class="container mt-5">
+          <span><button id="fale-conosco-btn" class="fale-conosco-btn" onclick="faleConosco()"> * Fale Conosco *</button></span>
+          <p class="main-p"><i>Cosmeticos renomados!</i></p>
+          <section  id="section_cosmeticos" class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4" id="card-container">
               <div class="col">
                 <div class="card h-100">
@@ -221,7 +235,7 @@
         </aside>
         
 
-
+        <span><button id="fale-conosco-btn" class="fale-conosco-btn" onclick="faleConosco()"> * Fale Conosco *</button></span>
 
 
         <article id="quem_somos">
