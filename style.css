@@ -339,16 +339,19 @@
 
 .navbar_a_p {
   color: var(--cor-0);
-  font-size: 9vw;
+  font-size: 8vw;
   text-decoration: none;
-  padding: 5px;
-  padding-bottom: 5px;
+  padding: 3px;
+  padding-bottom: 0px;
   text-align: center;
   margin-right: 0;
   margin-left: auto;
   margin: auto;
   margin-bottom: 0px;
+  margin-left: -28px;
+  margin-right: 0px;
 }
+
 @media screen and (max-width: 300px) {
   .navbar_a_p {
     color: var(--cor-0);
@@ -361,8 +364,11 @@
     margin-left: auto;
     margin: auto;
     margin-bottom: 0px;
-  }
+    margin-left: -28px;
+    margin-right: 0px;
 }
+  }
+
 
 
 @media screen and (min-width: 510px) {
