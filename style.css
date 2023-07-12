@@ -349,6 +349,21 @@
   margin: auto;
   margin-bottom: 0px;
 }
+@media screen and (max-width: 300px) {
+  .navbar_a_p {
+    color: var(--cor-0);
+    font-size: 8vw;
+    text-decoration: none;
+    padding: 3px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: auto;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+}
+
 
 @media screen and (min-width: 510px) {
   .navbar_a_p {
