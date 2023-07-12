@@ -93,9 +93,8 @@
   font-size: 17px;
   text-decoration: none;
   letter-spacing: 0.6px;
-  margin-right: -10px;
+  margin-right: 0px;
 }
-
 
 .navbar-toggler-icon{
   background-color: #d9d1ee79;
@@ -354,7 +353,7 @@
   margin: auto;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: -10px;
 }
 
 @media screen and (max-width: 300px) {
@@ -370,7 +369,7 @@
     margin: auto;
     margin-bottom: 0px;
     margin-left: 0px;
-    margin-right: 0px;
+    margin-right: -10px;
 }
   }
 
